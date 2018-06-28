@@ -1,0 +1,34 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>
+        Lista de compras
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding id="page8">
+  <ion-list>
+
+    <ion-item>
+      <ion-label>Sabonete</ion-label>
+      <ion-checkbox item-right [(ngModel)]="pepperoni"></ion-checkbox>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Sabão em pó</ion-label>
+      <ion-checkbox item-right [(ngModel)]="sausage"></ion-checkbox>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Arroz</ion-label>
+      <ion-checkbox item-right [(ngModel)]="mushrooms"></ion-checkbox>
+    </ion-item>
+
+  </ion-list>
+  <!-- Real floating action button, fixed. It will not scroll with the content -->
+  <ion-fab right bottom >
+    <button ion-fab class="btnAdd" on-click="goToCadItem()">+</button>
+  </ion-fab>
+</ion-content>

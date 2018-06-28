@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>
+      Meus Grupos
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding id="page2">
+  <ion-list id="meusGrupos-list5">
+    <ion-item color="none" on-click="goToPessoal()" id="meusGrupos-list-item7">
+      <ion-avatar item-left>
+        <img src="../../assets/imgs/profile.png">
+      </ion-avatar>
+      <h2>
+        {{ nome_grupo }}
+      </h2>
+    </ion-item>
+    <ion-item>
+      <ion-avatar item-left>
+        <img src="../../assets/imgs/bbx.jpg">
+      </ion-avatar>
+      <h2>Churrascos</h2>
+      <p>Churras mian mian</p>
+    </ion-item>
+  </ion-list>
+  <ion-fab right bottom>
+    <button ion-fab class="btnAdd" on-click="goToAddGroup()">+</button>
+  </ion-fab>
+</ion-content>

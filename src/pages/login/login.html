@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>
+      Login
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding id="page4">
+  <form id="login-form1" (ngSubmit)="saveUser()">
+    <ion-list id="login-list2">
+      <ion-item id="login-input1">
+        <ion-label>
+          Email
+        </ion-label>
+        <ion-input type="email" [(ngModel)]="user.email" name="email" placeholder=""></ion-input>
+      </ion-item>
+      <ion-item id="login-input2">
+        <ion-label>
+          Senha
+        </ion-label>
+        <ion-input type="password" [(ngModel)]="user.password" name="password" placeholder=""></ion-input>
+      </ion-item>
+    </ion-list>
+    <div class="spacer" style="height:20px;" id="login-spacer1"></div>
+    <button id="login-button1" ion-button color="stable" type="submit" block>
+      Log in
+    </button>
+  </form>
+  <button ion-button color="light" clear on-click="goToForgetMyPwd()">Esqueci minha senha</button>
+</ion-content>
