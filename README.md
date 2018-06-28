@@ -9,13 +9,11 @@ Instale node >= 8 e npm >= 6
 
 execute os commandos
 
-´´´
-
+```
 npm i -- instalar todos com componentes node_modules https://nodejs.org/api/modules.html
 
 ng serve -- executar projeto localmente em cima do Ionic
-
-´´´
+```
 
 # Contribuições
 
