@@ -4,7 +4,7 @@ Projeto de interfaces mobile para a aplicação Lista de Compras: *ourList*
 
 Maiores informações: https://github.com/joaop221/ListaCompra-Api
 
-# Instalção e Depêndencias 
+# Instalação e Depêndencias 
 Instale node >= 8 e npm >= 6
 
 execute os commandos
