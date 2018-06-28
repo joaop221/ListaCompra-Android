@@ -9,7 +9,7 @@ Maiores informações: https://github.com/joaop221/ListaCompra-Api
 ### Instalação e Depêndencias 
 Instale node >= 8 e npm >= 6
 
-execute os commandos
+execute os commandos na raiz da aplicação
 
 ```
 npm i -- instalar todos com componentes node_modules https://nodejs.org/api/modules.html
